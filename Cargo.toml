@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "concoction_macro",
+    "concoction_test"
+]

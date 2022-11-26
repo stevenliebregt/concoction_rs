@@ -1,0 +1,8 @@
+[package]
+name = "concoction_test"
+version = "0.1.0"
+edition = "2021"
+authors = ["Steven Liebregt <stevenliebregt@outlook.com>"]
+
+[dev-dependencies]
+concoction_macro = { path = "../concoction_macro" }

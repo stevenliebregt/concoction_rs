@@ -1,0 +1,15 @@
+[package]
+name = "concoction_macro"
+version = "0.1.0"
+edition = "2021"
+authors = ["Steven Liebregt <stevenliebregt@outlook.com>"]
+
+[lib]
+name = "concoction_macro"
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1.0.47"
+syn = "1.0.103"
+quote = "1.0.21"
+proc_macro_roids = "0.7.0"
